@@ -87,13 +87,13 @@ class _MyHomePageState extends State<MyHomePage> {
                   height: 50,
                   decoration: BoxDecoration(color: Colors.blue),
                  ),
-                 SizedBox(width: 10,),
+                 const SizedBox(width: 10,),
                  Container(
                   width: 100,
                   height: 50,
                   decoration: BoxDecoration(color: Colors.blue),
                  ),
-                 SizedBox(width: 10,),
+                 const SizedBox(width: 10,),
                  Container(
                   width: 100,
                   height: 50,
@@ -101,7 +101,7 @@ class _MyHomePageState extends State<MyHomePage> {
                  )
               ],
             ),
-            SizedBox(height: 10,),
+            const SizedBox(height: 10,),
             Center(
               child: Stack(
                 alignment: Alignment.center,
